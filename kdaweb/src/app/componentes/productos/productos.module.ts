@@ -19,6 +19,14 @@ import { MasComponent } from './mas/mas.component';
     VelasComponent,
     MasComponent
   ],
+  exports:[
+    AdornosComponent,
+    BatucadaComponent,
+    DecorativosComponent,
+    GlobosComponent,
+    VelasComponent,
+    MasComponent
+  ],
   imports: [
     CommonModule,
     ProductosRoutingModule

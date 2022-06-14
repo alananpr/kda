@@ -7,6 +7,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { NavegacionComponent } from './navegacion/navegacion.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { CasaComponent } from './casa/casa.component';
+import { ProductosModule } from './productos/productos.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CasaComponent } from './casa/casa.component';
   ],
   exports: [
     NavegacionComponent,
-    CasaComponent
+    CasaComponent,
+    ProductosModule
   ],
   imports: [
     CommonModule,
