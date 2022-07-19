@@ -8,6 +8,7 @@ import { DecorativosComponent } from './decorativos/decorativos.component';
 import { GlobosComponent } from './globos/globos.component';
 import { VelasComponent } from './velas/velas.component';
 import { MasComponent } from './mas/mas.component';
+import { GlobometalicoComponent } from './globometalico/globometalico.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MasComponent } from './mas/mas.component';
     DecorativosComponent,
     GlobosComponent,
     VelasComponent,
-    MasComponent
+    MasComponent,
+    GlobometalicoComponent
   ],
   exports:[
     AdornosComponent,
@@ -25,7 +27,8 @@ import { MasComponent } from './mas/mas.component';
     DecorativosComponent,
     GlobosComponent,
     VelasComponent,
-    MasComponent
+    MasComponent,
+    GlobometalicoComponent
   ],
   imports: [
     CommonModule,
