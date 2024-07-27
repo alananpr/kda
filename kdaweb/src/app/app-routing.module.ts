@@ -7,6 +7,8 @@ import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 import { AdornosComponent } from './componentes/productos/adornos/adornos.component';
 import { BatucadaComponent } from './componentes/productos/batucada/batucada.component';
 import { DecorativosComponent } from './componentes/productos/decorativos/decorativos.component';
+import { GlobometalicoComponent } from './componentes/productos/globometalico/globometalico.component';
+import { GlobometalicosetComponent } from './componentes/productos/globometalicoset/globometalicoset.component';
 import { GlobosComponent } from './componentes/productos/globos/globos.component';
 import { MasComponent } from './componentes/productos/mas/mas.component';
 import { ProductosModule } from './componentes/productos/productos.module';
@@ -21,6 +23,8 @@ const routes: Routes = [
     {path: 'batucada', component: BatucadaComponent},
     {path: 'decorativos', component: DecorativosComponent},
     {path: 'globos', component: GlobosComponent},
+    {path: 'globometalicoln', component: GlobometalicoComponent},
+    {path: 'globometalicoset', component: GlobometalicosetComponent},
     {path: 'velas', component: VelasComponent},
     {path: 'mas', component: MasComponent}
 
